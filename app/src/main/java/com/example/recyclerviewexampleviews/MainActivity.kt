@@ -8,6 +8,7 @@ import com.example.recyclerviewexampleviews.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
+    private val manager = LinearLayoutManager(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -16,9 +17,8 @@ class MainActivity : AppCompatActivity() {
         iniciarRecyclerView()
     }
 
-    fun iniciarRecyclerView() {
-        val recyclerView = binding.recyclerViewContent
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = ElementoAdapter(ElementoProvider.Elemento)
+    private fun iniciarRecyclerView() {
+        binding.recyclerViewContent.layoutManager = manager
+        binding.recyclerViewContent.adapter = ElementoAdapter(ElementoProvider.Elemento)
     }
 }
