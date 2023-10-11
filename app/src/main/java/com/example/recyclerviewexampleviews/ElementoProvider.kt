@@ -1,0 +1,50 @@
+package com.example.recyclerviewexampleviews
+
+class ElementoProvider {
+    companion object {
+        val Elemento = listOf<Elementos>(
+            Elementos("Primero",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "1"),
+            Elementos("Segundo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "2"),
+            Elementos("Tercero",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "3"),
+            Elementos("Cuarto",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "4"),
+            Elementos("Quinto",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "5"),
+            Elementos("Sexto",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "6"),
+            Elementos("Septimo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "7"),
+            Elementos("Octavo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "8"),
+            Elementos("Noveno",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "9"),
+            Elementos("Decimo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "10"),
+            Elementos("Onceavo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "11"),
+            Elementos("Doceavo",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "12"),
+            Elementos("Decimo tercero",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "13"),
+            Elementos("Decimo cuarto",
+                "https://dealgoritmos.com/wp-content/uploads/2023/05/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png",
+                "14")
+        )
+    }
+}
